@@ -25,7 +25,7 @@ namespace MyFIrstProgram
             {
                 Console.Write("Increment score: \n");
                 add = Convert.ToInt32(Console.ReadLine());
-                playerScore = playerScore + add;
+                playerScore += add;
                 Console.Write("Current score: \n");
                 Console.WriteLine(playerScore);
             }
